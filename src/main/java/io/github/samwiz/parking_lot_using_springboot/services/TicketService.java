@@ -30,10 +30,6 @@ public class TicketService
         Gate gate = optionalGate.get();
         ticket.setGeneratedAt(gate);
         ticket.setGeneratedBy(gate.getOperator());
-
-
-
-
         return null;
     }
 }
